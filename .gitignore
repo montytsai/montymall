@@ -11,8 +11,12 @@ pom.xml.versionsBackup
 pom.xml.next
 buildNumber.properties
 .mvn/timing.properties
+**/mvnw
+**/mvnw.cmd
+**/.mvn
 
 # IntelliJ IDEA
+**/target/
 .idea/
 *.iws
 *.iml
@@ -44,3 +48,6 @@ docker-compose.override.yml
 
 # Spring Boot devtools restart dir (if present)
 restart/
+
+**/.gitignore
+**/.gitattributes
