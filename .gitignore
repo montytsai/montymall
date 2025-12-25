@@ -1,0 +1,46 @@
+et/
+build/
+*.class
+
+# Maven generated files
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Logs, temp and OS files
+logs/
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+
+# Node (frontend modules, optional)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker / local env
+docker-compose.override.yml
+.env
+
+# Misc IDE metadata
+.classpath
+.project
+.settings/
+
+# Spring Boot devtools restart dir (if present)
+restart/
